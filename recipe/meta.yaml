@@ -1,5 +1,5 @@
-{% set version = "1.4" %}
-{% set sha256 = "383de0f537ef2e38b85ff9692593b0cfae8958c9b3bd451b52c255fd9171ffce" %}
+{% set version = "1.5" %}
+{% set sha256 = "d80bd225154d1db13cb4eaccf7a18c358be72092641b68717f96fcf1d16acd0b" %}
 
 package:
   name: autograd
@@ -18,14 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6 
+    - python >=3.6
     - setuptools
     - numpy >=1.10
     - future >=0.15.2
     - scipy >=0.17
 
   run:
-    - python >=3.6 
+    - python >=3.6
     - numpy >=1.10
     - future >=0.15.2
     - scipy >=0.17
