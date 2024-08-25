@@ -18,17 +18,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
     - numpy >=1.10
     - future >=0.15.2
     - scipy >=0.17
 
+    - python >=3.8
     - hatchling
   run:
-    - python >=3.6
     - numpy >=1.10
     - future >=0.15.2
     - scipy >=0.17
+    - python >=3.8
 
 test:
   imports:
