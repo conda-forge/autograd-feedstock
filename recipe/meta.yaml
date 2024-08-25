@@ -40,8 +40,9 @@ test:
 about:
   home: https://github.com/HIPS/autograd
   license: MIT
+  license_family: MIT
   license_file: license.txt
-  summary: Efficiently computes derivatives of numpy code.
+  summary: Efficiently computes derivatives of NumPy code.
 
 extra:
   recipe-maintainers:
