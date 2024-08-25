@@ -19,11 +19,11 @@ requirements:
   host:
     - pip
     - python >=3.6
-    - setuptools
     - numpy >=1.10
     - future >=0.15.2
     - scipy >=0.17
 
+    - hatchling
   run:
     - python >=3.6
     - numpy >=1.10
