@@ -7,7 +7,7 @@ Home: https://github.com/HIPS/autograd
 
 Package license: MIT
 
-Summary: Efficiently computes derivatives of numpy code.
+Summary: Efficiently computes derivatives of NumPy code.
 
 Current build status
 ====================
