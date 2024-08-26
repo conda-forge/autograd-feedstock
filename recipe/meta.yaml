@@ -1,5 +1,5 @@
-{% set version = "1.6.2" %}
-{% set sha256 = "8731e08a0c4e389d8695a40072ada4512641c113b6cace8f4cfbe8eb7e9aedeb" %}
+{% set version = "1.7.0" %}
+{% set sha256 = "de743fd368d6df523cd37305dcd171861a9752a144493677d2c9f5a56983ff2f" %}
 
 package:
   name: autograd
@@ -18,17 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
-    - setuptools
-    - numpy >=1.10
-    - future >=0.15.2
-    - scipy >=0.17
-
+    - python >=3.8
+    - hatchling
+    - numpy >=1.25
+    - scipy >=1.11
   run:
-    - python >=3.6
-    - numpy >=1.10
-    - future >=0.15.2
-    - scipy >=0.17
+    - python >=3.8
+    - numpy >=1.25
+    - scipy >=1.11
 
 test:
   imports:
@@ -40,8 +37,9 @@ test:
 about:
   home: https://github.com/HIPS/autograd
   license: MIT
+  license_family: MIT
   license_file: license.txt
-  summary: Efficiently computes derivatives of numpy code.
+  summary: Efficiently computes derivatives of NumPy code.
 
 extra:
   recipe-maintainers:
