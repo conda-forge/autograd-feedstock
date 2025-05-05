@@ -24,7 +24,7 @@ requirements:
     - scipy >=1.11
   run:
     - python >={{ python_min }}
-    - numpy >=1.25
+    - numpy >=1.25,<3
     - scipy >=1.11
 
 test:
