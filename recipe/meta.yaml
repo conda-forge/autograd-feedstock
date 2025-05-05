@@ -1,5 +1,5 @@
-{% set version = "1.7.0" %}
-{% set sha256 = "de743fd368d6df523cd37305dcd171861a9752a144493677d2c9f5a56983ff2f" %}
+{% set version = "1.8.0" %}
+{% set sha256 = "107374ded5b09fc8643ac925348c0369e7b0e73bbed9565ffd61b8fd04425683" %}
 
 package:
   name: autograd
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
