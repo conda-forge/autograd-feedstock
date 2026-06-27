@@ -1,5 +1,5 @@
-{% set version = "1.8.0" %}
-{% set sha256 = "107374ded5b09fc8643ac925348c0369e7b0e73bbed9565ffd61b8fd04425683" %}
+{% set version = "1.9.0" %}
+{% set sha256 = "5352ea2940cc7cf8ffa97a53171ec1cc538b4d32bb9c9fbfda40940cef0e79a9" %}
 
 package:
   name: autograd
